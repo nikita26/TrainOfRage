@@ -1,0 +1,935 @@
+﻿Log file open, 08/21/18 03:05:20
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TrainOfRage
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(40305812) SRandInit(40305812).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.255102
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: E:/dev/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.20-21.05.22:906][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.20-21.05.22:906][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.20-21.05.22:938][  0]LogInit: Computer: PC
+[2018.08.20-21.05.22:938][  0]LogInit: User: user
+[2018.08.20-21.05.22:938][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.20-21.05.22:938][  0]LogInit: High frequency timer resolution =2.242019 MHz
+[2018.08.20-21.05.22:939][  0]LogMemory: Memory total: Physical=7.5GB (8GB approx)
+[2018.08.20-21.05.22:939][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.20-21.05.22:939][  0]LogMemory: Process Physical Memory: 275.86 MB used, 275.86 MB peak
+[2018.08.20-21.05.22:939][  0]LogMemory: Process Virtual Memory: 274.18 MB used, 274.18 MB peak
+[2018.08.20-21.05.22:939][  0]LogMemory: Physical Memory: 3344.80 MB used,  4296.74 MB free, 7641.54 MB total
+[2018.08.20-21.05.22:939][  0]LogMemory: Virtual Memory: 650.53 MB used,  4296.74 MB free, 134217728.00 MB total
+[2018.08.20-21.05.23:240][  0]LogInit: Using OS detected language (ru-RU).
+[2018.08.20-21.05.23:240][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.08.20-21.05.23:246][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2018.08.20-21.05.23:247][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2018.08.20-21.05.24:803][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.20-21.05.24:829][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7660G N HD 7660G + HD 7670M Dual Graphics' (Feature Level 11_0)
+[2018.08.20-21.05.24:829][  0]LogD3D11RHI:       1482/0/3584 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.08.20-21.05.24:831][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.20-21.05.24:831][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.20-21.05.24:831][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.20-21.05.24:839][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.20-21.05.24:839][  0]LogD3D11RHI:     GPU DeviceId: 0x9900 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.20-21.05.24:839][  0]LogWindows: EnumDisplayDevices:
+[2018.08.20-21.05.24:840][  0]LogWindows:    0. 'AMD Radeon HD 7660G N HD 7660G + HD 7670M Dual Graphics' (P:1 D:1)
+[2018.08.20-21.05.24:840][  0]LogWindows:    1. 'AMD Radeon HD 7660G N HD 7660G + HD 7670M Dual Graphics' (P:0 D:0)
+[2018.08.20-21.05.24:841][  0]LogWindows:    2. 'AMD Radeon HD 7660G N HD 7660G + HD 7670M Dual Graphics' (P:0 D:0)
+[2018.08.20-21.05.24:841][  0]LogWindows:    3. 'AMD Radeon HD 7660G N HD 7660G + HD 7670M Dual Graphics' (P:0 D:0)
+[2018.08.20-21.05.24:842][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.20-21.05.24:842][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7660G N HD 7660G + HD 7670M Dual Graphics
+[2018.08.20-21.05.24:842][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.20-21.05.24:842][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.20-21.05.24:842][  0]LogRHI: Texture pool is 1037 MB (70% of 1482 MB)
+[2018.08.20-21.05.24:860][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.20-21.05.24:877][  0]LogD3D11RHI: GPU Timing Frequency: 50.000000 (Debug: 2 1)
+[2018.08.20-21.05.24:878][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Intermediate/Shaders/WorkingDirectory/6652/).
+[2018.08.20-21.05.24:878][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Temp/UnrealShaderWorkingDir/7AF52102482F62D02542D39B1ED8B589/'.
+[2018.08.20-21.05.24:878][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.20-21.05.26:864][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.20-21.05.26:960][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.20-21.05.27:064][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.20-21.05.27:165][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.20-21.05.27:257][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.20-21.05.27:350][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.20-21.05.27:447][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.20-21.05.27:533][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.20-21.05.27:604][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.20-21.05.27:689][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.20-21.05.27:770][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.08.20-21.05.27:854][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.08.20-21.05.27:941][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.08.20-21.05.28:023][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.08.20-21.05.28:106][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.08.20-21.05.28:273][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.08.20-21.05.28:273][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.08.20-21.05.28:342][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.20-21.05.28:568][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.20-21.05.28:641][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.20-21.05.28:741][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.20-21.05.28:825][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.20-21.05.28:920][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.20-21.05.29:084][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.20-21.05.29:121][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.20-21.05.30:030][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.20-21.05.30:278][  0]LogDerivedDataCache: Loaded boot cache 0.25s 93MB C:/Users/user/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.08.20-21.05.30:279][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.08.20-21.05.30:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.20-21.05.30:279][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.20-21.05.30:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.20-21.05.30:279][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.20-21.05.30:323][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.20-21.05.30:337][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.20-21.05.30:359][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.20-21.05.30:360][  0]LogSlate: Using Freetype 2.6.0
+[2018.08.20-21.05.30:361][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.20-21.05.30:361][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.20-21.05.30:885][  0]LogAssetRegistry: FAssetRegistry took 0.0304 seconds to start up
+[2018.08.20-21.05.31:198][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.20-21.05.32:181][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.20-21.05.32:246][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.20-21.05.32:246][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.20-21.05.32:246][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.20-21.05.32:246][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.08.20-21.05.32:246][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.08.20-21.05.32:248][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.08.20-21.05.33:111][  0]LogNetVersion: TrainOfRage , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4289478322)
+[2018.08.20-21.05.33:542][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.093218 seconds
+[2018.08.20-21.05.33:555][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.08.20-21.05.33:555][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.08.20-21.05.33:555][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.20-21.05.33:659][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.08.20-21.05.39:406][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.20-21.05.39:479][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.20-21.05.40:761][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.08.20-21.05.41:441][  0]SourceControl: Source control is disabled
+[2018.08.20-21.05.41:441][  0]SourceControl: Source control is disabled
+[2018.08.20-21.05.41:525][  0]SourceControl: Source control is disabled
+[2018.08.20-21.05.41:601][  0]SourceControl: Source control is disabled
+[2018.08.20-21.05.42:607][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.20-21.05.43:034][  0]LogOcInput: OculusInput pre-init called
+[2018.08.20-21.05.43:514][  0]LogEngine: Initializing Engine...
+[2018.08.20-21.05.43:517][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.20-21.05.43:957][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.20-21.05.43:957][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.20-21.05.44:181][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.20-21.05.44:192][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.20-21.05.44:238][  0]LogInit: FAudioDevice initialized.
+[2018.08.20-21.05.45:249][  0]LogDerivedDataCache: Saved boot cache 1.01s 93MB C:/Users/user/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.08.20-21.05.45:289][  0]LogInit: Texture streaming: Enabled
+[2018.08.20-21.05.45:485][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.20-21.05.45:884][  0]LogInit: Transaction tracking system initialized
+[2018.08.20-21.05.46:397][  0]BlueprintLog: New page: Editor Load
+[2018.08.20-21.05.47:754][  0]LogInit: Warning: CVar named 'r.MobileHDR' marked up in RendererSettings was not found or is set to read-only
+[2018.08.20-21.05.48:191][  0]LocalizationService: Localization service is disabled
+[2018.08.20-21.05.49:264][  0]LogConsoleResponse: Display: 
+[2018.08.20-21.05.49:597][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.20-21.05.49:597][  0]LogCook: Display: Mobile HDR setting 0
+[2018.08.20-21.05.49:597][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.20-21.05.50:484][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/' took 0.01s
+[2018.08.20-21.05.51:502][  0]SourceControl: Source control is disabled
+[2018.08.20-21.05.52:267][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 E:/dev/Epic Games/UE_4.17/FeaturePacks/MobileStarterContent.upack)
+[2018.08.20-21.05.53:705][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.08.20-21.05.53:837][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Architecture/Floor_400x400.uasset"
+[2018.08.20-21.05.53:949][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset"
+[2018.08.20-21.05.54:039][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Architecture/Wall_400x200.uasset"
+[2018.08.20-21.05.54:095][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Architecture/Wall_400x300.uasset"
+[2018.08.20-21.05.54:118][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Architecture/Wall_400x400.uasset"
+[2018.08.20-21.05.54:148][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Architecture/Wall_500x500.uasset"
+[2018.08.20-21.05.54:211][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.08.20-21.05.54:256][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.08.20-21.05.54:642][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.08.20-21.05.54:755][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.08.20-21.05.54:901][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse01.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Collapse01.uasset"
+[2018.08.20-21.05.55:094][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse02.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Collapse02.uasset"
+[2018.08.20-21.05.55:144][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Collapse_Cue.uasset"
+[2018.08.20-21.05.55:322][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion01.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Explosion01.uasset"
+[2018.08.20-21.05.55:447][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion02.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Explosion02.uasset"
+[2018.08.20-21.05.55:536][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Explosion_Cue.uasset"
+[2018.08.20-21.05.55:980][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Fire01.uasset"
+[2018.08.20-21.05.56:045][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Fire01_Cue.uasset"
+[2018.08.20-21.05.56:341][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset"
+[2018.08.20-21.05.56:418][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.08.20-21.05.56:544][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Light01.uasset"
+[2018.08.20-21.05.56:592][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01_Cue.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Light01_Cue.uasset"
+[2018.08.20-21.05.56:716][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Light02.uasset"
+[2018.08.20-21.05.56:784][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02_Cue.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Light02_Cue.uasset"
+[2018.08.20-21.05.57:024][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Smoke01.uasset"
+[2018.08.20-21.05.57:028][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset"
+[2018.08.20-21.05.57:046][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.08.20-21.05.57:796][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Starter_Birds01.uasset"
+[2018.08.20-21.05.59:294][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music01.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Starter_Music01.uasset"
+[2018.08.20-21.05.59:352][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.08.20-21.05.59:880][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Starter_Wind05.uasset"
+[2018.08.20-21.06.00:604][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Starter_Wind06.uasset"
+[2018.08.20-21.06.00:742][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Steam01.uasset"
+[2018.08.20-21.06.00:787][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Audio/Steam01_Cue.uasset"
+[2018.08.20-21.06.00:921][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.08.20-21.06.00:977][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.08.20-21.06.01:005][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.08.20-21.06.01:055][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.08.20-21.06.01:621][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.08.20-21.06.01:744][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.08.20-21.06.01:991][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/Minimal_Default.umap" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Maps/Minimal_Default.umap"
+[2018.08.20-21.06.02:297][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.08.20-21.06.04:091][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/StarterMap.umap" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Maps/StarterMap.umap"
+[2018.08.20-21.06.07:467][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.08.20-21.06.07:588][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset"
+[2018.08.20-21.06.07:711][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset"
+[2018.08.20-21.06.07:816][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.08.20-21.06.08:062][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.08.20-21.06.08:473][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.08.20-21.06.08:633][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.08.20-21.06.08:736][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.08.20-21.06.08:866][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.08.20-21.06.09:099][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.08.20-21.06.09:237][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.08.20-21.06.09:395][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.08.20-21.06.09:441][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.08.20-21.06.09:598][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.08.20-21.06.09:732][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.08.20-21.06.09:822][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.08.20-21.06.09:912][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Glass.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Glass.uasset"
+[2018.08.20-21.06.10:127][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset"
+[2018.08.20-21.06.10:283][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.08.20-21.06.10:419][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset"
+[2018.08.20-21.06.10:506][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.08.20-21.06.10:696][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.08.20-21.06.10:785][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.08.20-21.06.10:875][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset"
+[2018.08.20-21.06.10:979][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset"
+[2018.08.20-21.06.11:125][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset"
+[2018.08.20-21.06.11:214][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset"
+[2018.08.20-21.06.11:382][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.08.20-21.06.11:451][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.08.20-21.06.11:608][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.08.20-21.06.11:693][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset"
+[2018.08.20-21.06.11:777][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.08.20-21.06.11:854][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.08.20-21.06.11:942][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.08.20-21.06.11:956][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset"
+[2018.08.20-21.06.12:071][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Water_Lake.uasset"
+[2018.08.20-21.06.12:178][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset"
+[2018.08.20-21.06.12:455][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.08.20-21.06.12:550][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.08.20-21.06.12:701][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset"
+[2018.08.20-21.06.12:848][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset"
+[2018.08.20-21.06.13:029][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.08.20-21.06.13:177][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.08.20-21.06.13:315][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Explosion.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/P_Explosion.uasset"
+[2018.08.20-21.06.13:440][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Fire.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/P_Fire.uasset"
+[2018.08.20-21.06.13:497][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Smoke.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/P_Smoke.uasset"
+[2018.08.20-21.06.13:675][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Sparks.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/P_Sparks.uasset"
+[2018.08.20-21.06.13:737][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset"
+[2018.08.20-21.06.13:870][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.08.20-21.06.13:923][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.08.20-21.06.14:017][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.08.20-21.06.14:051][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.08.20-21.06.14:118][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.08.20-21.06.14:174][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.08.20-21.06.14:275][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.08.20-21.06.14:835][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset"
+[2018.08.20-21.06.14:999][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/MaterialSphere.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/MaterialSphere.uasset"
+[2018.08.20-21.06.15:157][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Bush.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_Bush.uasset"
+[2018.08.20-21.06.15:283][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Chair.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_Chair.uasset"
+[2018.08.20-21.06.15:372][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_CornerFrame.uasset"
+[2018.08.20-21.06.15:519][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Couch.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_Couch.uasset"
+[2018.08.20-21.06.15:679][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Door.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_Door.uasset"
+[2018.08.20-21.06.15:700][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_DoorFrame.uasset"
+[2018.08.20-21.06.15:769][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_GlassWindow.uasset"
+[2018.08.20-21.06.15:929][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.08.20-21.06.16:108][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.08.20-21.06.16:622][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.08.20-21.06.16:706][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_PillarFrame.uasset"
+[2018.08.20-21.06.16:839][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset"
+[2018.08.20-21.06.17:065][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Rock.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_Rock.uasset"
+[2018.08.20-21.06.17:201][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Shelf.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_Shelf.uasset"
+[2018.08.20-21.06.17:956][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Stairs.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_Stairs.uasset"
+[2018.08.20-21.06.18:339][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Statue.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_Statue.uasset"
+[2018.08.20-21.06.18:925][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_TableRound.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_TableRound.uasset"
+[2018.08.20-21.06.19:003][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/SM_WindowFrame.uasset"
+[2018.08.20-21.06.19:046][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/Materials/M_Bush.uasset"
+[2018.08.20-21.06.19:213][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/Materials/M_Chair.uasset"
+[2018.08.20-21.06.19:320][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Door.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/Materials/M_Door.uasset"
+[2018.08.20-21.06.19:439][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/Materials/M_Frame.uasset"
+[2018.08.20-21.06.19:750][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset"
+[2018.08.20-21.06.19:853][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.08.20-21.06.19:935][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.08.20-21.06.20:030][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/Materials/M_Rock.uasset"
+[2018.08.20-21.06.20:087][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset"
+[2018.08.20-21.06.20:108][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/Materials/M_Statue.uasset"
+[2018.08.20-21.06.20:131][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.08.20-21.06.20:165][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset"
+[2018.08.20-21.06.20:193][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Cone.uasset"
+[2018.08.20-21.06.20:271][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Cube.uasset"
+[2018.08.20-21.06.20:360][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.08.20-21.06.20:518][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.08.20-21.06.20:631][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset"
+[2018.08.20-21.06.20:838][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.08.20-21.06.20:967][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.08.20-21.06.21:016][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Plane.uasset"
+[2018.08.20-21.06.21:050][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.08.20-21.06.21:243][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset"
+[2018.08.20-21.06.21:493][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Torus.uasset"
+[2018.08.20-21.06.21:556][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Trim.uasset"
+[2018.08.20-21.06.21:661][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.08.20-21.06.21:773][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.08.20-21.06.21:807][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.08.20-21.06.21:898][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Tube.uasset"
+[2018.08.20-21.06.21:969][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.08.20-21.06.22:122][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.08.20-21.06.22:203][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.08.20-21.06.22:666][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.08.20-21.06.23:270][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.08.20-21.06.24:191][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.08.20-21.06.24:491][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.08.20-21.06.25:035][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.08.20-21.06.25:853][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.08.20-21.06.27:859][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.08.20-21.06.30:555][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.08.20-21.06.31:365][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.08.20-21.06.31:935][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.08.20-21.06.33:514][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.08.20-21.06.33:934][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.08.20-21.06.34:327][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.08.20-21.06.34:555][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Burst_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Burst_M.uasset"
+[2018.08.20-21.06.34:692][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Bush_D.uasset"
+[2018.08.20-21.06.34:816][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Bush_N.uasset"
+[2018.08.20-21.06.34:907][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.08.20-21.06.35:130][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.08.20-21.06.35:244][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Chair_M.uasset"
+[2018.08.20-21.06.35:449][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Chair_N.uasset"
+[2018.08.20-21.06.35:682][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.08.20-21.06.36:245][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.08.20-21.06.36:959][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.08.20-21.06.37:609][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.08.20-21.06.37:942][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.08.20-21.06.38:173][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.08.20-21.06.38:668][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.08.20-21.06.39:726][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.08.20-21.06.40:219][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.08.20-21.06.41:067][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.08.20-21.06.41:997][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.08.20-21.06.42:570][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.08.20-21.06.43:729][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.08.20-21.06.44:145][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.08.20-21.06.45:516][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.08.20-21.06.45:934][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.08.20-21.06.46:411][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.08.20-21.06.46:573][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.08.20-21.06.46:817][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.08.20-21.06.47:074][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Door_M.uasset"
+[2018.08.20-21.06.47:174][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Door_N.uasset"
+[2018.08.20-21.06.47:268][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.08.20-21.06.47:513][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.08.20-21.06.47:743][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.08.20-21.06.47:904][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.08.20-21.06.48:067][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Frame_M.uasset"
+[2018.08.20-21.06.48:237][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Frame_N.uasset"
+[2018.08.20-21.06.48:278][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset"
+[2018.08.20-21.06.49:128][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.08.20-21.06.49:848][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.08.20-21.06.50:887][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.08.20-21.06.51:346][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.08.20-21.06.52:630][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.08.20-21.06.53:261][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.08.20-21.06.53:441][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Lamp_M.uasset"
+[2018.08.20-21.06.53:730][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Lamp_N.uasset"
+[2018.08.20-21.06.54:811][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_MacroVariation.uasset"
+[2018.08.20-21.06.55:379][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.08.20-21.06.56:241][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.08.20-21.06.56:828][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.08.20-21.06.57:040][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.08.20-21.06.58:045][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.08.20-21.06.58:707][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.08.20-21.06.59:077][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.08.20-21.06.59:936][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.08.20-21.07.00:513][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.08.20-21.07.01:293][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset"
+[2018.08.20-21.07.01:542][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset"
+[2018.08.20-21.07.02:427][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.08.20-21.07.03:393][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.08.20-21.07.03:863][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.08.20-21.07.05:110][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.08.20-21.07.05:973][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.08.20-21.07.06:732][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.08.20-21.07.07:649][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.08.20-21.07.09:510][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.08.20-21.07.10:231][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Shelf_M.uasset"
+[2018.08.20-21.07.10:869][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Shelf_N.uasset"
+[2018.08.20-21.07.10:917][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.08.20-21.07.11:472][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.08.20-21.07.11:658][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.08.20-21.07.12:226][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Spark_Core.uasset"
+[2018.08.20-21.07.12:522][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Statue_M.uasset"
+[2018.08.20-21.07.12:808][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Statue_N.uasset"
+[2018.08.20-21.07.13:170][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_TableRound_M.uasset"
+[2018.08.20-21.07.13:742][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_TableRound_N.uasset"
+[2018.08.20-21.07.13:931][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.08.20-21.07.14:069][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.08.20-21.07.14:330][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.08.20-21.07.14:746][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.08.20-21.07.15:141][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.08.20-21.07.15:365][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.08.20-21.07.15:615][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Water_M.uasset"
+[2018.08.20-21.07.15:877][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Water_N.uasset"
+[2018.08.20-21.07.16:207][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.08.20-21.07.16:697][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.08.20-21.07.16:926][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.08.20-21.07.18:069][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.08.20-21.07.18:635][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.08.20-21.07.19:247][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.08.20-21.07.20:061][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.08.20-21.07.20:722][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.08.20-21.07.21:091][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.08.20-21.07.22:010][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2018.08.20-21.07.22:364][  0]LogStaticMesh: Built static mesh [0.35s] /Game/MobileStarterContent/Architecture/Floor_400x400.Floor_400x400
+[2018.08.20-21.07.23:999][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.08.20-21.07.27:420][  0]LogSavePackage: Save=310.98ms
+[2018.08.20-21.07.27:420][  0]LogSavePackage: Moving 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Floor_400x400173110804DBC05079AEE20A5093882DE.tmp' to 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Architecture/Floor_400x400.uasset'
+[2018.08.20-21.07.27:430][  0]LogSavePackage: Display: Finished SavePackage C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/MobileStarterContent/Architecture/Floor_400x400.uasset
+[2018.08.20-21.07.27:431][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.08.20-21.07.27:434][  0]Cmd: MAP LOAD FILE="C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.20-21.07.27:435][  0]LightingResults: New page: Lighting Build
+[2018.08.20-21.07.27:520][  0]MapCheck: New page: Map Check
+[2018.08.20-21.07.27:520][  0]LightingResults: New page: Lighting Build
+[2018.08.20-21.07.29:536][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.08.20-21.07.29:656][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.20-21.07.29:776][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.20-21.07.29:872][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.71ms to complete.
+[2018.08.20-21.07.29:872][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 2.438
+[2018.08.20-21.07.34:836][  0]LogCollectionManager: Loaded 0 collections in 0.003215 seconds
+[2018.08.20-21.07.36:958][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Collections/' took 0.01s
+[2018.08.20-21.07.36:958][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/Developers/user/Collections/' took 0.03s
+[2018.08.20-21.07.36:958][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/Collections/' took 0.00s
+[2018.08.20-21.07.36:958][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.08.20-21.07.37:246][  0]LogContentBrowser: Native class hierarchy populated in 0.1048 seconds. Added 2388 classes and 502 folders.
+[2018.08.20-21.07.37:840][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0284 seconds. Added 0 classes and 0 folders.
+[2018.08.20-21.07.37:926][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0035 seconds. Added 0 classes and 0 folders.
+[2018.08.20-21.07.39:399][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0036 seconds. Added 1 classes and 2 folders.
+[2018.08.20-21.07.44:836][  0]LogSlate: Took 0.000448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.20-21.07.44:892][  0]LogSlate: Took 0.000347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.20-21.07.45:314][  0]LogSlate: Took 0.103613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.20-21.07.46:914][  0]LogRenderer: Reallocating scene render targets to support 856x380 Format 10 NumSamples 1 (Frame:1).
+[2018.08.20-21.07.47:601][  0]LogSlate: Took 0.000423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.20-21.07.49:503][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0035 seconds. Added 1 classes and 2 folders.
+[2018.08.20-21.07.49:504][  0]LogLoad: (Engine Initialization) Total time: 151.33 seconds
+[2018.08.20-21.07.49:504][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.20-21.07.49:504][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.08.20-21.07.50:047][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.08.20-21.08.05:237][ 46]LogAssetRegistry: Asset discovery search completed in 154.3740 seconds
+[2018.08.20-21.08.05:241][ 46]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.20-21.08.05:241][ 46]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000114 seconds (updated 0 objects)
+[2018.08.20-21.11.51:197][ 70]LogEditorViewport: Clicking on Actor (LMB): BP_2DSideScrollerCharacter_C (TP_2DSideScrollerCharacter)
+[2018.08.20-21.12.00:900][376]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.08.20-21.23.00:662][610]LogSlate: Took 0.031960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.20-21.23.00:694][610]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/user/Desktop/train1.png)
+[2018.08.20-21.23.00:889][610]LogTexture: Display: Building textures: train1 (BGRA8, 472X155)
+[2018.08.20-21.23.06:033][887]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.08.20-21.23.06:166][887]Candidate modules for hot reload:
+[2018.08.20-21.23.06:166][887]  TrainOfRage
+[2018.08.20-21.23.06:166][887]Launching UnrealBuildTool... [E:/dev/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe TrainOfRage -ModuleWithSuffix TrainOfRage 1208 Win64 Development -editorrecompile -canskiplink "C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/TrainOfRage.uproject" ]
+[2018.08.20-21.23.06:178][887]Warning: Starting HotReload took  0.2s.
+[2018.08.20-21.23.47:493][722]LogSlate: Took 0.059272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.20-21.23.49:457][776]CompilerResultsLog: New page: Compilation - Aug 21, 2018, 9:23:49 AM
+[2018.08.20-21.23.49:457][776]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2018.08.20-21.23.49:457][776]CompilerResultsLog: Compiling game modules for hot reload
+[2018.08.20-21.23.49:457][776]CompilerResultsLog: Target is up to date
+[2018.08.20-21.23.49:457][776]CompilerResultsLog: Total build time: 42,16 seconds (NoActionsToExecute executor: 0,01 seconds)
+[2018.08.20-21.23.49:485][776]LogMainFrame: MainFrame: Module compiling took 43.452 seconds
+[2018.08.20-21.23.49:594][776]LogContentBrowser: Native class hierarchy populated in 0.0277 seconds. Added 2390 classes and 506 folders.
+[2018.08.20-21.23.49:631][776]Display: HotReload took 43.6s.
+[2018.08.20-21.23.50:867][813]LogRenderer: Reallocating scene render targets to support 1084x616 Format 10 NumSamples 1 (Frame:88).
+[2018.08.20-21.23.53:926][860]LogSlate: Took 0.000552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.20-21.25.48:213][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Sprites/Train" FILE="C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Sprites/Train.uasset" SILENT=true
+[2018.08.20-21.25.48:230][376]LogSavePackage: Save=14.57ms
+[2018.08.20-21.25.48:230][376]LogSavePackage: Moving 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Train2F3C0CE24D85EDF07DEB0BA9738C5EC8.tmp' to 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Sprites/Train.uasset'
+[2018.08.20-21.25.48:241][376]LogSavePackage: Display: Finished SavePackage C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Sprites/Train.uasset
+[2018.08.20-21.25.53:657][632]Cmd: EDIT CUT
+[2018.08.20-21.25.53:849][632]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.08.20-21.25.53:954][632]LogEditorActor: Deleted 1 Actors (0.123 secs)
+[2018.08.20-21.25.56:141][752]Cmd: TRANSACTION UNDO
+[2018.08.20-21.25.56:141][752]LogEditorTransaction: Undo Cut
+[2018.08.20-21.25.57:547][812]Cmd: EDIT CUT
+[2018.08.20-21.25.57:555][812]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.08.20-21.25.57:589][812]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2018.08.20-21.25.58:024][836]Cmd: TRANSACTION UNDO
+[2018.08.20-21.25.58:024][836]LogEditorTransaction: Undo Cut
+[2018.08.20-21.26.42:657][ 32]LogTexture: Display: Building textures: 2DBackgroundTile (AutoDXT, 256X256)
+[2018.08.20-21.26.43:462][ 32]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0052 seconds. Added 1 classes and 2 folders.
+[2018.08.20-21.27.15:800][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.026
+[2018.08.20-21.27.15:853][ 29]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Sprites/train1] ([1] browsable assets)...
+[2018.08.20-21.27.15:861][ 29]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScroller/Sprites/train1.train1]
+[2018.08.20-21.27.15:862][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Sprites/train1]
+[2018.08.20-21.27.15:872][ 29]LogSavePackage: Save=7.50ms
+[2018.08.20-21.27.15:872][ 29]LogSavePackage: Moving 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/train1_Auto18C14B72F42400E35AB230292FC1E3B09.tmp' to 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Autosaves/Game/2DSideScroller/Sprites/train1_Auto1.uasset'
+[2018.08.20-21.27.15:876][ 29]LogSavePackage: Display: Finished SavePackage C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Autosaves/Game/2DSideScroller/Sprites/train1_Auto1.uasset
+[2018.08.20-21.27.15:876][ 29]LogFileHelpers: Auto-saving content packages took 0.028
+[2018.08.20-21.27.25:073][226]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/user/Desktop/train1.png)
+[2018.08.20-21.27.25:093][226]LogTexture: Display: Building textures: train1 (BGRA8, 472X155)
+[2018.08.20-21.27.52:896][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Sprites/Train" FILE="C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Sprites/Train.uasset" SILENT=true
+[2018.08.20-21.27.52:917][859]LogSavePackage: Save=14.02ms
+[2018.08.20-21.27.52:917][859]LogSavePackage: Moving 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Train0B70F10C4B9DF13CE7FDA79469F151C6.tmp' to 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Sprites/Train.uasset'
+[2018.08.20-21.27.52:924][859]LogSavePackage: Display: Finished SavePackage C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Sprites/Train.uasset
+[2018.08.20-21.27.52:929][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Sprites/train1" FILE="C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Sprites/train1.uasset" SILENT=true
+[2018.08.20-21.27.52:935][859]LogSavePackage: Save=2.73ms
+[2018.08.20-21.27.52:935][859]LogSavePackage: Moving 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/train129C4C28746DEFC3E5DB08894130B3103.tmp' to 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Sprites/train1.uasset'
+[2018.08.20-21.27.52:943][859]LogSavePackage: Display: Finished SavePackage C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Sprites/train1.uasset
+[2018.08.20-21.28.14:080][971]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2018.08.20-21.28.17:634][158]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Train)
+[2018.08.20-21.28.20:071][283]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2018.08.20-21.28.21:641][360]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Train)
+[2018.08.20-21.28.32:785][693]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2018.08.20-21.28.34:157][759]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Train)
+[2018.08.20-21.28.50:489][600]LogEditorViewport: Clicking Background
+[2018.08.20-21.28.50:823][616]LogEditorViewport: Clicking Background
+[2018.08.20-21.28.51:512][649]LogEditorViewport: Clicking Background
+[2018.08.20-21.29.07:187][554]Cmd: SELECT NONE
+[2018.08.20-21.29.08:695][638]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.20-21.29.12:260][638]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.08.20-21.29.12:291][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.20-21.29.12:349][638]PIE: New page: PIE session: 2DSideScrollerExampleMap (Aug 21, 2018, 9:29:12 AM)
+[2018.08.20-21.29.12:349][638]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.08.20-21.29.12:451][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102061s)
+[2018.08.20-21.29.12:453][638]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.08.20-21.29.12:453][638]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2018.08.20-21.29.12:453][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.103859s)
+[2018.08.20-21.29.12:478][638]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.20-21.29.12:496][638]LogInit: FAudioDevice initialized.
+[2018.08.20-21.29.12:602][638]LogLoad: Game class is 'TrainOfRageGameMode'
+[2018.08.20-21.29.12:716][638]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.08.21-03.29.12
+[2018.08.20-21.29.12:769][638]LogWorld: Bringing up level for play took: 0.088145
+[2018.08.20-21.29.13:070][638]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0041 seconds. Added 11 classes and 0 folders.
+[2018.08.20-21.29.13:112][638]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.445
+[2018.08.20-21.29.13:113][638]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.08.20-21.29.29:221][578]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.08.20-21.29.29:354][578]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.08.20-21.31.14:915][960]LogEditorViewport: Clicking on Actor (LMB): BP_2DSideScrollerCharacter_C (TP_2DSideScrollerCharacter)
+[2018.08.20-21.35.57:546][402]LogSlate: Took 0.019901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.20-21.35.59:525][402]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0070 seconds. Added 113 classes and 0 folders.
+[2018.08.20-21.37.37:203][768]LogSavePackage: Save=252.65ms
+[2018.08.20-21.37.37:203][768]LogSavePackage: Moving 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/2DSideScrollerExampleMap_Auto2B73464FA4A0F8EB0D8BC348D97DDBC5C.tmp' to 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Autosaves/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_Auto2.umap'
+[2018.08.20-21.37.37:208][768]LogSavePackage: Display: Finished SavePackage C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Autosaves/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_Auto2.umap
+[2018.08.20-21.37.37:297][768]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.560
+[2018.08.20-21.37.37:297][768]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.560
+[2018.08.20-21.37.37:331][768]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Sprites/RunningAnimation] ([1] browsable assets)...
+[2018.08.20-21.37.37:360][768]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/2DSideScroller/Sprites/RunningAnimation.RunningAnimation]
+[2018.08.20-21.37.37:360][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Sprites/RunningAnimation]
+[2018.08.20-21.37.37:392][768]LogSavePackage: Save=22.20ms
+[2018.08.20-21.37.37:393][768]LogSavePackage: Moving 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/RunningAnimation_Auto2C21CA8E046588917BF648FB83B087A8B.tmp' to 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Autosaves/Game/2DSideScroller/Sprites/RunningAnimation_Auto2.uasset'
+[2018.08.20-21.37.37:398][768]LogSavePackage: Display: Finished SavePackage C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Autosaves/Game/2DSideScroller/Sprites/RunningAnimation_Auto2.uasset
+[2018.08.20-21.37.37:402][768]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Textures/train1] ([1] browsable assets)...
+[2018.08.20-21.37.37:413][768]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScroller/Textures/train1.train1]
+[2018.08.20-21.37.37:413][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Textures/train1]
+[2018.08.20-21.37.37:427][768]LogSavePackage: Save=10.09ms
+[2018.08.20-21.37.37:427][768]LogSavePackage: Moving 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/train1_Auto2EEB83C4B4409C421ABB2F782B545545C.tmp' to 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Autosaves/Game/2DSideScroller/Textures/train1_Auto2.uasset'
+[2018.08.20-21.37.37:432][768]LogSavePackage: Display: Finished SavePackage C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Autosaves/Game/2DSideScroller/Textures/train1_Auto2.uasset
+[2018.08.20-21.37.37:432][768]LogFileHelpers: Auto-saving content packages took 0.105
+[2018.08.20-21.40.37:589][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Sprites/RunningAnimation" FILE="C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Sprites/RunningAnimation.uasset" SILENT=true
+[2018.08.20-21.40.37:633][654]LogSavePackage: Save=37.03ms
+[2018.08.20-21.40.37:633][654]LogSavePackage: Moving 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/RunningAnimationD991E5C54C73B83B58E369B16667BAD9.tmp' to 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Sprites/RunningAnimation.uasset'
+[2018.08.20-21.40.37:644][654]LogSavePackage: Display: Finished SavePackage C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Sprites/RunningAnimation.uasset
+[2018.08.20-21.40.37:723][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Textures/train1" FILE="C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Textures/train1.uasset" SILENT=true
+[2018.08.20-21.40.37:748][654]LogSavePackage: Save=20.95ms
+[2018.08.20-21.40.37:748][654]LogSavePackage: Moving 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/train10EC5673F4577971A1C73F3B35D18C644.tmp' to 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Textures/train1.uasset'
+[2018.08.20-21.40.37:757][654]LogSavePackage: Display: Finished SavePackage C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScroller/Textures/train1.uasset
+[2018.08.20-21.40.39:768][654]LogSavePackage: Save=206.00ms
+[2018.08.20-21.40.39:768][654]LogSavePackage: Moving 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/2DSideScrollerExampleMap226C52F14B154D6CB290D4A169EF0AD0.tmp' to 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2018.08.20-21.40.39:796][654]LogSavePackage: Display: Finished SavePackage C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2018.08.20-21.40.39:867][654]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 2.062
+[2018.08.20-21.40.40:581][654]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.20-21.40.41:065][655]Cmd: QUIT_EDITOR
+[2018.08.20-21.40.42:078][655]LogExit: Preparing to exit.
+[2018.08.20-21.40.43:707][655]LogExit: Editor shut down
+[2018.08.20-21.40.43:791][655]LogExit: Transaction tracking system shut down
+[2018.08.20-21.40.44:117][655]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.08.20-21.40.44:117][655]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/' was aborted.
+[2018.08.20-21.40.44:118][655]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.08.20-21.40.44:118][655]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.08.20-21.40.44:118][655]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.08.20-21.40.44:513][655]LogExit: Object subsystem successfully closed.
+[2018.08.20-21.40.44:639][655]LogD3D11RHI: Shutdown
+[2018.08.20-21.40.44:639][655]LogD3D11RHI: CleanupD3DDevice
+[2018.08.20-21.40.45:145][655]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.08.20-21.40.45:236][655]LogModuleManager: Shutting down and abandoning module BlueprintGraph (540)
+[2018.08.20-21.40.45:236][655]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (538)
+[2018.08.20-21.40.45:279][655]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2018.08.20-21.40.45:297][655]LogModuleManager: Shutting down and abandoning module TextureEditor (534)
+[2018.08.20-21.40.45:297][655]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2018.08.20-21.40.45:297][655]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2018.08.20-21.40.45:327][655]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2018.08.20-21.40.45:328][655]LogDirectoryWatcher: A directory notification for 'E:/dev/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.08.20-21.40.45:331][655]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2018.08.20-21.40.45:331][655]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2018.08.20-21.40.45:331][655]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2018.08.20-21.40.45:331][655]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/Collections/' was aborted.
+[2018.08.20-21.40.45:331][655]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Content/Developers/user/Collections/' was aborted.
+[2018.08.20-21.40.45:331][655]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Saved/Collections/' was aborted.
+[2018.08.20-21.40.45:332][655]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2018.08.20-21.40.45:332][655]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2018.08.20-21.40.45:332][655]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2018.08.20-21.40.45:332][655]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2018.08.20-21.40.45:332][655]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2018.08.20-21.40.45:332][655]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2018.08.20-21.40.45:332][655]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2018.08.20-21.40.45:332][655]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2018.08.20-21.40.45:332][655]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2018.08.20-21.40.45:333][655]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2018.08.20-21.40.45:333][655]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2018.08.20-21.40.45:333][655]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2018.08.20-21.40.45:333][655]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2018.08.20-21.40.45:333][655]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2018.08.20-21.40.45:333][655]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2018.08.20-21.40.45:333][655]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2018.08.20-21.40.45:333][655]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2018.08.20-21.40.45:333][655]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module Media (479)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2018.08.20-21.40.45:334][655]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2018.08.20-21.40.45:335][655]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2018.08.20-21.40.45:335][655]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2018.08.20-21.40.45:335][655]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2018.08.20-21.40.45:335][655]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2018.08.20-21.40.45:652][655]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2018.08.20-21.40.45:653][655]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2018.08.20-21.40.45:654][655]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2018.08.20-21.40.45:654][655]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2018.08.20-21.40.45:654][655]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2018.08.20-21.40.45:654][655]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2018.08.20-21.40.45:654][655]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2018.08.20-21.40.45:654][655]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2018.08.20-21.40.45:654][655]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2018.08.20-21.40.45:704][655]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2018.08.20-21.40.45:705][655]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2018.08.20-21.40.45:705][655]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2018.08.20-21.40.45:705][655]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2018.08.20-21.40.45:705][655]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2018.08.20-21.40.45:705][655]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2018.08.20-21.40.45:706][655]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2018.08.20-21.40.45:733][655]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2018.08.20-21.40.45:733][655]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2018.08.20-21.40.45:733][655]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2018.08.20-21.40.45:779][655]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2018.08.20-21.40.45:779][655]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2018.08.20-21.40.45:779][655]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2018.08.20-21.40.45:779][655]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2018.08.20-21.40.45:779][655]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2018.08.20-21.40.45:779][655]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2018.08.20-21.40.45:779][655]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2018.08.20-21.40.45:780][655]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2018.08.20-21.40.45:780][655]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2018.08.20-21.40.45:780][655]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2018.08.20-21.40.45:780][655]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2018.08.20-21.40.45:850][655]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2018.08.20-21.40.45:850][655]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2018.08.20-21.40.45:850][655]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2018.08.20-21.40.45:850][655]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2018.08.20-21.40.45:850][655]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2018.08.20-21.40.45:850][655]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2018.08.20-21.40.45:850][655]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2018.08.20-21.40.45:850][655]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2018.08.20-21.40.45:850][655]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2018.08.20-21.40.45:850][655]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2018.08.20-21.40.45:859][655]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2018.08.20-21.40.45:860][655]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2018.08.20-21.40.45:860][655]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2018.08.20-21.40.45:860][655]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2018.08.20-21.40.45:860][655]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2018.08.20-21.40.45:860][655]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2018.08.20-21.40.45:860][655]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2018.08.20-21.40.45:860][655]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2018.08.20-21.40.45:860][655]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2018.08.20-21.40.45:860][655]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2018.08.20-21.40.45:860][655]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2018.08.20-21.40.45:860][655]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2018.08.20-21.40.45:860][655]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2018.08.20-21.40.45:861][655]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2018.08.20-21.40.45:862][655]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2018.08.20-21.40.45:862][655]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2018.08.20-21.40.45:862][655]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2018.08.20-21.40.45:862][655]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2018.08.20-21.40.45:862][655]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2018.08.20-21.40.45:864][655]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2018.08.20-21.40.45:864][655]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2018.08.20-21.40.45:865][655]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2018.08.20-21.40.45:865][655]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Dropbox/C/TrainOfRage/TrainOfRage/Binaries/Win64' was aborted.
+[2018.08.20-21.40.45:865][655]LogModuleManager: Shutting down and abandoning module TrainOfRage (262)
+[2018.08.20-21.40.45:865][655]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.08.20-21.40.45:866][655]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.08.20-21.40.45:866][655]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.08.20-21.40.45:866][655]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.08.20-21.40.45:866][655]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.08.20-21.40.45:866][655]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.08.20-21.40.45:866][655]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.08.20-21.40.45:866][655]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.08.20-21.40.45:969][655]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.08.20-21.40.46:070][655]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.08.20-21.40.46:070][655]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.08.20-21.40.46:070][655]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.08.20-21.40.46:070][655]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.08.20-21.40.46:071][655]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.08.20-21.40.46:072][655]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.08.20-21.40.46:076][655]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.08.20-21.40.46:077][655]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.08.20-21.40.46:077][655]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.08.20-21.40.46:077][655]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.08.20-21.40.46:077][655]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.08.20-21.40.46:077][655]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.08.20-21.40.46:077][655]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.08.20-21.40.46:077][655]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.08.20-21.40.46:077][655]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.08.20-21.40.46:077][655]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.08.20-21.40.46:077][655]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.08.20-21.40.46:078][655]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.08.20-21.40.46:082][655]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.08.20-21.40.46:082][655]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.08.20-21.40.46:082][655]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.08.20-21.40.46:083][655]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.08.20-21.40.46:091][655]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.08.20-21.40.46:181][655]LogDerivedDataCache: Shutdown
+[2018.08.20-21.40.46:181][655]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.08.20-21.40.46:182][655]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.08.20-21.40.46:209][655]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.08.20-21.40.46:209][655]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.08.20-21.40.46:209][655]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.08.20-21.40.46:209][655]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.08.20-21.40.46:209][655]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.08.20-21.40.46:209][655]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.08.20-21.40.46:209][655]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.08.20-21.40.46:209][655]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.08.20-21.40.46:209][655]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.08.20-21.40.46:209][655]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.08.20-21.40.46:209][655]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.08.20-21.40.46:210][655]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.08.20-21.40.46:211][655]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.08.20-21.40.46:211][655]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.08.20-21.40.46:211][655]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.08.20-21.40.46:211][655]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.08.20-21.40.46:211][655]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.08.20-21.40.46:212][655]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.08.20-21.40.46:213][655]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.08.20-21.40.46:213][655]LogOnline: Display: Unloading online subsystem: NULL
+[2018.08.20-21.40.46:253][655]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.08.20-21.40.46:253][655]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.08.20-21.40.46:253][655]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.08.20-21.40.46:253][655]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B568460D0-4A7D-D81B-1481-4682EC019C87%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=fb7f76464556de70af3aaeae6d751b4e%7C762665864ad74430a48ba2d9f5ab1e21%7Caa49e9b0-d448-4945-9591-720909b9681f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.08.20-21.40.46:281][655]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.08.20-21.40.46:285][655]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.08.20-21.40.46:285][655]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.08.20-21.40.46:285][655]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.08.20-21.40.46:285][655]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.08.20-21.40.46:285][655]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.08.20-21.40.46:286][655]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.08.20-21.40.46:286][655]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.08.20-21.40.46:288][655]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.08.20-21.40.46:288][655]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.08.20-21.40.46:288][655]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.08.20-21.40.46:288][655]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.08.20-21.40.46:288][655]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.08.20-21.40.46:288][655]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.08.20-21.40.46:288][655]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.08.20-21.40.46:288][655]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.08.20-21.40.46:288][655]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.08.20-21.40.46:288][655]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.08.20-21.40.46:288][655]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.08.20-21.40.46:296][655]LogExit: Exiting.
+[2018.08.20-21.40.46:323][655]Log file closed, 08/21/18 03:40:46

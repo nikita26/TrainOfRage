@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TrainOfRage.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\dev\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\user\Dropbox\C\TrainOfRage\TrainOfRage\Intermediate\Build\Win64\UE4Editor\Development\TrainOfRage\TrainOfRage.cpp.obj"
+"C:\Users\user\Dropbox\C\TrainOfRage\TrainOfRage\Intermediate\Build\Win64\UE4Editor\Development\TrainOfRage\TrainOfRageCharacter.cpp.obj"
+"C:\Users\user\Dropbox\C\TrainOfRage\TrainOfRage\Intermediate\Build\Win64\UE4Editor\Development\TrainOfRage\TrainOfRageGameMode.cpp.obj"
+"C:\Users\user\Dropbox\C\TrainOfRage\TrainOfRage\Intermediate\Build\Win64\UE4Editor\Development\TrainOfRage\TrainOfRage.init.gen.cpp.obj"
+"C:\Users\user\Dropbox\C\TrainOfRage\TrainOfRage\Intermediate\Build\Win64\UE4Editor\Development\TrainOfRage\TrainOfRageCharacter.gen.cpp.obj"
+"C:\Users\user\Dropbox\C\TrainOfRage\TrainOfRage\Intermediate\Build\Win64\UE4Editor\Development\TrainOfRage\TrainOfRageGameMode.gen.cpp.obj"
+"E:\dev\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\TrainOfRage\PCLaunch.rc.res"
+"E:\dev\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\user\Dropbox\C\TrainOfRage\TrainOfRage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TrainOfRage.lib"
