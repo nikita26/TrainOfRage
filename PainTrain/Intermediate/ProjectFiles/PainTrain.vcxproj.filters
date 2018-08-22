@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\PainTrain.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{802DFF48-B104-450F-8939-A83D3AA62BED}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PainTrain.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\PainTrainEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{8A1130D7-B406-4DA2-AE5E-2D1EFEFC74B4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\PainTrain">
+			<UniqueIdentifier>{5719363B-FB44-48C8-AF6F-1FAC779B09BF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\PainTrain\MyActor.cpp">
+			<Filter>Source\PainTrain</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PainTrain\MyActor.h">
+			<Filter>Source\PainTrain</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\PainTrain\PainTrain.Build.cs">
+			<Filter>Source\PainTrain</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\PainTrain\PainTrain.cpp">
+			<Filter>Source\PainTrain</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PainTrain\PainTrain.h">
+			<Filter>Source\PainTrain</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
