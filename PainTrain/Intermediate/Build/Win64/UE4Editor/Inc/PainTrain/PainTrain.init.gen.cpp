@@ -20,8 +20,8 @@ void EmptyLinkFunctionForGeneratedCodePainTrain_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/PainTrain")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x8F27D5D3;
-			Guid.B = 0x3C2874F4;
+			Guid.A = 0x925206EB;
+			Guid.B = 0x28EF00DB;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

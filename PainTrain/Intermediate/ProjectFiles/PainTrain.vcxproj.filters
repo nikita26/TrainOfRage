@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PainTrain.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{802DFF48-B104-450F-8939-A83D3AA62BED}</UniqueIdentifier>
+			<UniqueIdentifier>{0E22FF11-46BA-4D58-A9BC-91E704B1DC16}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PainTrain.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{8A1130D7-B406-4DA2-AE5E-2D1EFEFC74B4}</UniqueIdentifier>
+			<UniqueIdentifier>{16B7ADA6-78F9-46F4-B73B-44A98635E63A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\PainTrain">
-			<UniqueIdentifier>{5719363B-FB44-48C8-AF6F-1FAC779B09BF}</UniqueIdentifier>
+			<UniqueIdentifier>{DA34EA19-7AD6-40D3-9682-E0BED7CB0400}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\PainTrain\MyActor.cpp">
 			<Filter>Source\PainTrain</Filter>
@@ -47,6 +47,18 @@
 		</ClCompile >
 		<ClInclude Include="..\..\Source\PainTrain\PainTrain.h">
 			<Filter>Source\PainTrain</Filter>
+		</ClInclude >
+		<Filter Include="Source\PainTrain\Private">
+			<UniqueIdentifier>{7BB4D6C3-3A3C-4F9E-B404-9D4A2B3800BE}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\PainTrain\Private\background_dust.cpp">
+			<Filter>Source\PainTrain\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\PainTrain\Public">
+			<UniqueIdentifier>{B3A8DF6D-EFC8-4841-A7F1-37147201D7F5}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\PainTrain\Public\background_dust.h">
+			<Filter>Source\PainTrain\Public</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>

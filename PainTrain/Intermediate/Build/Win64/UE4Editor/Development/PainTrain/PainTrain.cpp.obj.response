@@ -25,6 +25,7 @@
 /w44668
 /I "E:\dev\Epic Games\UE_4.17\Engine\Source"
 /I C:\Users\user\Dropbox\C\TrainOfRage\PainTrain\Source
+/I C:\Users\user\Dropbox\C\TrainOfRage\PainTrain\Source\PainTrain\Public
 /I C:\Users\user\Dropbox\C\TrainOfRage\PainTrain\Intermediate\Build\Win64\UE4Editor\Inc\PainTrain
 /I C:\Users\user\Dropbox\C\TrainOfRage\PainTrain\Source\PainTrain
 /I "E:\dev\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public"
